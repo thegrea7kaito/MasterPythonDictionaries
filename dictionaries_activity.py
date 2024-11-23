@@ -1,15 +1,24 @@
-# Define classes
 class Product:
-    pass
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
 
 class Employee:
-    pass
+    def __init__(self, name, job_title):
+        self.name = name
+        self.job_title = job_title
 
 class Books:
-    pass
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
 
 class University:
-    pass
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location
 
 class Restaurant:
-    pass
+    def __init__(self, name, cuisine_type):
+        self.name = name
+        self.cuisine_type = cuisine_type
