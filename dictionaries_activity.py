@@ -64,3 +64,28 @@ restaurants = [
     {"name": "Joe's BBQ", "cuisine_type": "Barbecue"},
     {"name": "Gjelina", "cuisine_type": "Californian"}
 ]
+
+# Access and print product details
+print("Products:")
+for product in products:  # Iterate through the list of dictionaries
+    print(f"Name: {product['name']}, Price: ${product['price']}")
+
+# Access and print employee details
+print("\nEmployees:")
+for employee in employees:
+    print(f"Name: {employee['name']}, Job Title: {employee['job_title']}")
+
+# Access and print book details
+print("\nBooks:")
+for book in books:
+    print(f"Title: {book['title']}, Author: {book['author']}")
+
+# Access and print university details
+print("\nUniversities:")
+for university in universities:
+    print(f"Name: {university['name']}, Location: {university['location']}")
+
+# Access and print restaurant details
+print("\nRestaurants:")
+for restaurant in restaurants:
+    print(f"Name: {restaurant['name']}, Cuisine: {restaurant['cuisine_type']}")
