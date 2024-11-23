@@ -22,3 +22,45 @@ class Restaurant:
     def __init__(self, name, cuisine_type):
         self.name = name
         self.cuisine_type = cuisine_type
+
+
+# Dictionaries to store data
+products = [
+    {"name": "Laptop", "price": 1000},
+    {"name": "Mouse", "price": 25},
+    {"name": "Keyboard", "price": 45},
+    {"name": "Monitor", "price": 200},
+    {"name": "Headset", "price": 80}
+]
+
+employees = [
+    {"name": "Alice", "job_title": "Developer"},
+    {"name": "Bob", "job_title": "Designer"},
+    {"name": "Charlie", "job_title": "Manager"},
+    {"name": "Diana", "job_title": "HR Specialist"},
+    {"name": "Eve", "job_title": "Intern"}
+]
+
+books = [
+    {"title": "1984", "author": "George Orwell"},
+    {"title": "To Kill a Mockingbird", "author": "Harper Lee"},
+    {"title": "The Great Gatsby", "author": "F. Scott Fitzgerald"},
+    {"title": "Moby Dick", "author": "Herman Melville"},
+    {"title": "Pride and Prejudice", "author": "Jane Austen"}
+]
+
+universities = [
+    {"name": "MIT", "location": "Cambridge, MA"},
+    {"name": "Harvard", "location": "Cambridge, MA"},
+    {"name": "Stanford", "location": "Stanford, CA"},
+    {"name": "UC Berkeley", "location": "Berkeley, CA"},
+    {"name": "Caltech", "location": "Pasadena, CA"}
+]
+
+restaurants = [
+    {"name": "Chez Panisse", "cuisine_type": "French"},
+    {"name": "Pizzeria Bianco", "cuisine_type": "Italian"},
+    {"name": "Nobu", "cuisine_type": "Japanese"},
+    {"name": "Joe's BBQ", "cuisine_type": "Barbecue"},
+    {"name": "Gjelina", "cuisine_type": "Californian"}
+]
